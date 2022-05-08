@@ -1,0 +1,214 @@
+Delivered-To: shruthi.aui@gmail.com
+Received: from SJ0PR15MB4325.namprd15.prod.outlook.com ([fe80::2508:17da:2c72:676e])
+	by SJ0PR15MB4325.namprd15.prod.outlook.com ([fe80::2508:17da:2c72:676e%6])
+	with mapi id 15 .20.5206.027; Sun, 8 May 2022 10:08:54 +0000
+X-Google-Smtp-Source: ABdhPJySc27g2P1Whg05l4l/g5XZa7+NPc9VLT6prmUswJL1LBwMDUGpZlYhvX6wYkScE2g32VKF
+X-Received: by 2002:a05:6402:1a42:b0:424:20bb:3e37 with SMTP id
+ bf2-20020a0564021a4200b0042420bb3e37mr11784796edb.29.1652004537030;       
+ Sun, 08 May 2022 03:08:57 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+	b=ZWKZkVLSEHyniLUMGWOsEP3PuoQcCQbvicyZqIil3dYRZEW3RAu2o9uwGrckXFHycLAg0dwRHId
+	P42So6FHWG8B9RBIPjj+cPUQKxlAjo2EmKUeeFeYjRuMmjcmqH+GENp2+uttfASovOL0qHepHMlE6
+	Xl7NrHQ38ILm61pNZ1Oz9AeFSGOlvGkeKVClbnUez0yPWN20xTwo71hGwbN/wCDjeX5UeaeelTrCo
+	KQLyW7g9UDhZ8PhNYK28JnvxuszoMB0rRuf5hp1/37Uocfieyu1zxZ+KboAFepPRpGmZ3shNbNEp9
+	xEBd0aN/i6xmjfCtgEFNZkuzaP5achamC0FQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+	s=arcselector9901;
+	h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:
+	X-MS-Exchange-AntiSpam-MessageData-ChunkCount:
+	X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+	bh=O2E8MwifqCCVntvmP/VmsesnUHZ+qrKwrmA7z28J9Ls=;
+	b=gzF94um5DBb4XJXZmb16qNw2AkWb9MWmBfUqWdbCaCZdsEiL4mAemhNhkWWpUVnZFWFRmcTlPSW
+	oYOvTwXCNhZckYoeNPvPTjhRvbrsT8EWRF3jTzpR1jJ3GY7NMnnDmtg4QIdLxITqWcGiZTqm6vYIU
+	8mv1vpvLE05MvLEoFMJyNxkL7hcU3DCiJDDaQQaMraAjWHvgAkBh5tjIckmHWbSdOD4Y99noP6hF7
+	rIvA/iOltQkevAjsMXgxT/Jq2uN8eUzmx71kcFpqGm/PQoaUwvCihMyyekLVoaOxDlYL1LfCLEQgq
+	BgllNfVYTNatNc93Cxz5Iy9r0oHipzgi2HLQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+	dkim=none; arc=none
+Return-Path: <dineshmaripi@outlook.com>
+Received-SPF: pass (google.com: domain of dineshmaripi@outlook.com designates
+ 2a01:111:f400:fe5b::812 as permitted sender)
+ client-ip=2a01:111:f400:fe5b::812;
+Authentication-Results: mx.google.com;
+	dkim=pass header.i=@outlook.com header.s=selector1 header.b=A0jIizXI;
+	arc=pass (i=1); spf=pass
+	(google.com: domain of dineshmaripi@outlook.com designates 2a01:111:f400:fe5b::812 as permitted sender)
+	smtp.mailfrom=dineshmaripi@outlook.com;
+	dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+	s=selector1;
+	h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:
+	X-MS-Exchange-SenderADCheck;
+	bh=O2E8MwifqCCVntvmP/VmsesnUHZ+qrKwrmA7z28J9Ls=;
+	b=A0jIizXIT9rpEZ6GSFM9uKn8J+hIFFpiZr5J95K8dPNgWSwIPwenh6ShrU2PNSLLO6lVlU1aIEn
+	ytYo7dOPq0bTaQFCwAQtTBDjF5o0Hl0QkRkEfTwusRDyCKVxbAuAaD7kweRWA4lhLGsHZS1UMNnJI
+	maDs5MEy0t7WfVwxOfmyA6Etr3mywZ5CPuszMHZJd0NWgtWmtT3DfD/823gcyoERzivdCYHell8xs
+	X2xL25j8QlrwaUOj8FdWnPk5SqdvGUzvSW01bhtTV28aIslAsmVvlNq+dfVFZIf28DCgQPaqAOsaJ
+	oeW2cbgcS4hljC/NTi7tmG11byhjLYdYJmDQ==
+From: Dinesh Maripi <dineshmaripi@outlook.com>
+To: "shruthi.aui@gmail.com" <shruthi.aui@gmail.com>
+Subject: Mapple Trees
+Thread-Topic: Mapple Trees
+Thread-Index: AQHYYsOBeZ0IHgfY5U6rzUDapRbdhA==
+Date: Sun, 08 May 2022 10:08:54 +0000
+Message-ID: <SJ0PR15MB4325E38A3D9612CED429B39ECFC79@SJ0PR15MB4325.namprd15.prod.outlook.com>
+Accept-Language: en-US
+x-tmn: [g3e8sYXC7drB2xMmXZ9j3OZ3HPpXgucXIOjB4BVclASe3pAHCifUEOAZWxeQPyKp]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 3ef27952-bed5-4c3f-ca3d-08da30dac258
+x-ms-traffictypediagnostic: MN2PR15MB3360:EE_
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: =?utf-8?q?WjO=2Fw8GOueZrxKhPOmWp9cPkhl76QWlAdODVDKmqugY=2FV5uIRR2NVh0pKorq4?=
+ =?utf-8?q?62zwkpt48n24NlbbSJuznoB0fIyXB5bO4RE1y=2Fh46J7b5xaa=2FJrONIbo7taHe?=
+ =?utf-8?q?iccSGqHsqvTTCpmOi7GrbnpNASu0oE6dbQBRNxPCKJuuTGDmm7NFqpVxphfrt?=
+ =?utf-8?q?ZZ0wqVvLCEmG+Q6ftXla0h1sa=2FAwc28oFXi8rvyYDItj7QYibidONXlYw4bvm?=
+ =?utf-8?q?SD9Z4n6hOGz2a4AfcI7FIKqz=2Fn+nT2bA49XBmKWjW+xuhWlmXHN2UwlfcvLU+?=
+ =?utf-8?q?BkhuiauiogCzkeSL+CCuRYPiZCYd=2Fg23PmQFaely0ybahU1pn7f8T8IRfjbLX?=
+ =?utf-8?q?pdyjMdIKTHxwBnelfOSjWAuXwcAVG4X2SjamhaVJgXGqIZg1N6vwoqK94r3DR?=
+ =?utf-8?q?oxVX9TRaSJLGs3IFXCr94Iry3o4Qk0oZvPenRfXBfSZr+Ssia6qASuUlg8EsR?=
+ =?utf-8?q?sEZtUWug6tb368Y9OgJ8OwZG5R5zIC828odxf6K2S2IcNl5dYXZf75gcPRIit?=
+ =?utf-8?q?5Wq3CWMeMKmvABX437SPX8K3B5Ut8=2FU5jQnIWfybvjsdOiqssE1VgR66LX9AJ?=
+ =?utf-8?q?q0=2FGIWA8GW7MpaX6k1t=2Fb7QYp8ew0QYzaSMsYRYC3tNQzES9SNP1VhivD9LGV?=
+ =?utf-8?q?FDq=2FP0kwYVtU=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?utf-8?q?8wX5cdgHp0yoltipZf6kJBb6evDm2fyiKv5pauU95HBeNdfuO4v6Z8jPd5=2F7P?=
+ =?utf-8?q?g8H7AK=2Fw2K059JhUx15Pcv7q5YDCIlaxOr0QHYINZ+yBN4wVKYDBJ5zSF2Rc0?=
+ =?utf-8?q?yvNFqS51tZdr0zSgQvaDPPudtTUytwlM4oGGFEBFv4gdQTfWBSgylEwFrt=2F2D?=
+ =?utf-8?q?GK2YLNtA4TQdebytM0j8vhk968xC+9AX4M3Qx0ZbCo26Br8eAQyOQmJdbX4F4?=
+ =?utf-8?q?pRGvhwNf1kGgeF4WO7q=2FIqhebiVOcxKB0YphGW8A4BHGiSNh5DlzXNWOs9ZsX?=
+ =?utf-8?q?fBsIjZ2QvDI8QbemTiRtM2Z0NGegIKuxatJVJRPobqYzPKBZPaDE6=2FcmcEjSc?=
+ =?utf-8?q?slcclYRFk8rKERqg8Ys4bwu=2F2qLdujBMf9jv6vtosweHNoPAH=2FjMGAJTf9F5h?=
+ =?utf-8?q?IoCv6z6F35vrejep=2Fq6BNkahNuTBnAgbXmrej9NNMARzcGiQcZ0woGHoQDfVw?=
+ =?utf-8?q?cxjiZ=2FX5dzfvDd8LXhG8VAgYGgO+rc5oQe2SpyEK9pGy3cDHTAeg7mEpt0kEf?=
+ =?utf-8?q?LunuOhFidVrIe=2FWK7=2FmfeLh6CtJUWZmJzSY5OFPIzZcQfVZtm+38tUfMdMLn1?=
+ =?utf-8?q?0Lqv1RtK5G=2FCvE+t6xy0sbw=2FagGV24MbkRPJRG33SCtAy7+3aeghMxjPkXHf9?=
+ =?utf-8?q?qAWwhKZ8b5OgXaHQgVtjNQorbaupT9=2FDwu=2FSmGS8Q91NreL65XUzEXh=2FUOQqz?=
+ =?utf-8?q?DAeXBw2u1w124dXJC5HEaG+kBV=2FO=2Fv6lnAnU94qga77KojSlP0zsFwLH3RmXO?=
+ =?utf-8?q?Gkjn=2FItKOKWKMC4cS4Gkh4wiFN3j15Ux1TAf2f3msR9PY=2FkyNTB=2FzFDt12woy?=
+ =?utf-8?q?Pqw4hlZJjc7s=2FIsEtbkAwaylSQhg8YYf3mPqUakfLIDO9Nj5QojLeivAEPY6d?=
+ =?utf-8?q?H7x89pE3vNRJbUF21qZ1bRaHv=2FeeQNBGhLu0YTvmQOBf=2Fz=2FufzPBvzDTq3nUT?=
+ =?utf-8?q?y2xNz7N0G4gmuKE2ShkgCOX6ChCkBbIwvEqgEr3TRyWRzqtBk4rpp1yERfmcq?=
+ =?utf-8?q?M8zFYN4bTSwhJ8WgPP=2FiAYBIY5R1E6Y8nsv9Q3xrIDuI6zduYGenkPdD+5TAK?=
+ =?utf-8?q?L=2Fal6AVmwldo+2kEKFDKOsDS03da+rQd04bc4Tu6ebIK5XcL6LivJ4QipbUo0?=
+ =?utf-8?q?JUXr63QvsV+ql9kWyxafN5K9idYI9D288FfEY+4PoFPtfxc8VzernRpTVgJdt?=
+ =?utf-8?q?orfGCxP5kSeKi+KNi2slhLwZkHp9U4kUvRyTkoDYTqPHuqASh2VSYzmLXu5TK?=
+ =?utf-8?q?iabyVQTPR4=2FDI7z+msutChI11v9W6kv4B1MEytqiClTuehxOlWQ0zj=2FkcFTlN?=
+ =?utf-8?q?8fRjo76ttqNAAfwNxTtiezesJM15NOGp34Qx1oYpSP2zocEQGWe7IVNS2Sa+Q?=
+ =?utf-8?q?HjlV3wuRMmYJqJZIaXQRc20ctCiNSfYyfWjRiKSu=2FHZYT8GttoqWtrzvv1+Mo?=
+ =?utf-8?q?MXoHrLtZenCIAUfLn7EsIdC9zpSlKc9g+x7Lt3g03I47DYgPfuNULZz+LxnFx?=
+ =?utf-8?q?QFTCNibmeVO?=
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SJ0PR15MB4325.namprd15.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3ef27952-bed5-4c3f-ca3d-08da30dac258
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 May 2022 10:08:54.7793 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR15MB3360
+Uid: 372
+Folder: INBOX
+Sender: Dinesh Maripi <dineshmaripi@outlook.com>
+PlainText: Sent from Mail<https://go.microsoft.com/fwlink/?LinkId=550986> for
+ WindowsHi Shruthae,Do you like maple trees?Regards,Dinesh M
+HtmlBody: <html xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:w="urn:schemas-microsoft-com:office:word"
+ xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+ xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type"
+ content="text/html; charset=us-ascii"><meta name="Generator"
+ content="Microsoft Word 15 (filtered medium)"><style><!--/* Font Definitions
+ */@font-face	{font-family:"Cambria Math";	panose-1:2 4 5 3 5 4 6 3 2
+ 4;}@font-face	{font-family:Calibri;	panose-1:2 15 5 2 2 2 4 3 2 4;}/* Style
+ Definitions */p.MsoNormal, li.MsoNormal, div.MsoNormal	{margin:0in;
+	font-size:11.0pt;	font-family:"Calibri",sans-serif;}a:link, span.MsoHyperlink
+	{mso-style-priority:99;	color:blue;	text-decoration:underline;}.MsoChpDefault
+	{mso-style-type:export-only;}@page WordSection1	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}div.WordSection1
+	{page:WordSection1;}--></style></head><body lang="EN-US" link="blue"
+ vlink="#954F72" style="word-wrap:break-word"><div class="WordSection1"><p
+ class="MsoNormal"><o:p>&nbsp;</o:p></p><p
+ class="MsoNormal"><o:p>&nbsp;</o:p></p><p class="MsoNormal">Sent from <a
+ href="https://go.microsoft.com/fwlink/?LinkId=550986">Mail</a> for
+ Windows</p><p class="MsoNormal">Hi Shruthae,<o:p></o:p></p><p
+ class="MsoNormal"><o:p>&nbsp;</o:p></p><p class="MsoNormal">Do you like maple
+ trees?<o:p></o:p></p><p class="MsoNormal"><o:p>&nbsp;</o:p></p><p
+ class="MsoNormal">Regards,<o:p></o:p></p><p class="MsoNormal">Dinesh
+ M<o:p></o:p></p></div></body></html>
+Content-Type: multipart/alternative; boundary="=-GypOWMcjYNnbBmta7qxvnw=="
+
+--=-GypOWMcjYNnbBmta7qxvnw==
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Content-Id: <b6015c8a-16ba-44e9-b429-77742d3a11cc>
+
+
+
+Sent from Mail<https://go.microsoft.com/fwlink/?LinkId=3D550986> for W=
+indows
+Hi Shruthae,
+
+Do you like maple trees?
+
+Regards,
+Dinesh M
+
+--=-GypOWMcjYNnbBmta7qxvnw==
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Content-Id: <39a2c43c-3dda-4391-a283-a72a1d1efc87>
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"u=
+rn:schemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.micros=
+oft.com/office/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"=
+>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-a=
+scii">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium=
+)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"#954F72" style=3D"word-wra=
+p:break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Sent from <a href=3D"https://go.microsoft.com/f=
+wlink/?LinkId=3D550986">
+Mail</a> for Windows</p>
+<p class=3D"MsoNormal">Hi Shruthae,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Do you like maple trees?<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Regards,<o:p></o:p></p>
+<p class=3D"MsoNormal">Dinesh M<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--=-GypOWMcjYNnbBmta7qxvnw==--
