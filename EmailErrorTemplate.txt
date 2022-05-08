@@ -1,0 +1,9 @@
+Hi {0},
+
+There has been a suspicious activity detected at {1}.
+
+Error:
+{2}
+
+Regards,
+UiPath

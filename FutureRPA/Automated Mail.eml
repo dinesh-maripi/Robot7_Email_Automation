@@ -1,0 +1,123 @@
+Delivered-To: dineshmaripi007@gmail.com
+Received: from CS1PR8401MB0456.NAMPRD84.PROD.OUTLOOK.COM ([fe80::b148:97b1:ddd9:1821])
+	by CS1PR8401MB0456.NAMPRD84.PROD.OUTLOOK.COM ([fe80::b148:97b1:ddd9:1821%9])
+	with mapi id 15 .20.4436.024; Thu, 26 Aug 2021 10:07:47 +0000
+X-Google-Smtp-Source: ABdhPJy8m705Q/8bu6XRA1NalJ1ClvNjsUuZ0xl6gj7NBiHtdfELMBHrkLkFNOqHcCz3kKxawhl/
+X-Received: by 2002:a05:620a:4eb:: with SMTP id
+ b11mr2813060qkh.257.1629972468023;        Thu, 26 Aug 2021 03:07:48 -0700
+ (PDT)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+	b=XpC69c3IVNuL76e+hO4u/ocYUfQlcd9mgyls+yyVWRXVzaYVJxSufuXsDueMumYw+emEBcvzAl2
+	FeqSXEuKwnQQlfhcS/ug5tBv3c1MDAeOkOcHZUeTbjgRtMPwvgFF2yQrkXlO014HBd8OOfr9jfBY7
+	OpL5oF/w3DyOJyrRTnOFB1Dp9bY2tzOBIp2BxvRgbt04jMluu0RalwgjGog3fudpx2TgRO+LeFOvc
+	ab1WjFAofFN9aMwAlTfGKXICU7ZgcGM2IippDD/+qrPp9IYCKpEoslhHY5HvMgZMoIrzGrft5DtRS
+	oomtFWKLv9nfdZxwpFzrIwLE+vMQ6KRxsQ0g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+	s=arcselector9901;
+	h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:
+	X-MS-Exchange-SenderADCheck;
+	bh=z8weq21vc2Lq0cK9+2GN/JGTSSciHKSqKpz6UcIKA90=;
+	b=at80oV/+CLpjw6pSLUS2Afw4RgIPnNpjI9kt13aJ2mUu8jaKauJ61k+RsHWMZaYpyAPzWfudev5
+	Iftbpb6eglPZPXonCxhG7n9CdJ4SIfL/Ao7+BHDDVr/xlxScvqsGB/A8uKR9rK/g1oK4y/UwoiXYC
+	CIt6k33B8dpuQj4U76OD26i25TE2pCfNWWElREYxB2/OLpu4SixbeuWLeelDE+FbwH8dNpBel8rqb
+	WaQ8D4tMiacanACu0MDxgwhUcRXUwgHta+RykcXC2I8TqzISpFYFwKoQR8PHxfqHXErvjiTpSncDv
+	Vq4v5d02I4G2XTwvTJ4TXRYZENCazbS6Zl/A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+	dkim=none; arc=none
+Return-Path: <dineshmaripi@outlook.com>
+Received-SPF: pass (google.com: domain of dineshmaripi@outlook.com designates
+ 40.92.20.17 as permitted sender) client-ip=40.92.20.17;
+Authentication-Results: mx.google.com;
+	dkim=pass header.i=@outlook.com header.s=selector1 header.b="j/PqmYDx";
+	arc=pass (i=1); spf=pass
+	(google.com: domain of dineshmaripi@outlook.com designates 40.92.20.17 as permitted sender)
+	smtp.mailfrom=dineshmaripi@outlook.com;
+	dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+	s=selector1;
+	h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:
+	X-MS-Exchange-SenderADCheck;
+	bh=z8weq21vc2Lq0cK9+2GN/JGTSSciHKSqKpz6UcIKA90=;
+	b=j/PqmYDxZ0RGMMThq4CknX4vOsYVSNZahdtZKvxjux2x72OnZ6COismWqypdbnVGexwBpibawwp
+	6mv3l3VvaRzKdeUyhE5fDDowfcBnUp8D7nJWfuxa9nXpSPgSv8YYRcKUxtN3lyHoFoXTcrV6qvpWh
+	VUpigsSqvRZRTLFgbT6InvB2qi1PYDySRF19fOFmQSALrMaXPuRvU32L5CFY276raalB8bgL3/6bh
+	QuSt9H7U2UjOQZWaXs+3EKic8ifWKwQE9+AgVp6/w541gpHGdHOtFbE1sRok1HkQU3CimZsgsY9RH
+	dpq+7bdiZp9VRu9+5Bou6rooGTeFN32c2REA==
+From: dinesh maripi <dineshmaripi@outlook.com>
+To: "dineshmaripi007@gmail.com" <dineshmaripi007@gmail.com>
+Subject: Automated Mail
+Thread-Topic: Automated Mail
+Thread-Index: AdeaYMz5n9V1VoBwQAaQ59BBPrVNlA==
+Date: Thu, 26 Aug 2021 10:07:47 +0000
+Message-ID: <CS1PR8401MB04566ABBF69BB76E1212E908CFC79@CS1PR8401MB0456.NAMPRD84.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+x-incomingtopheadermarker: =?utf-8?q?OriginalChecksum=3A8A293CA87153AD2F62F295326FAED5009454C4FDE4B3?=
+ =?utf-8?q?EE9E4760BF5DFD1365D4=3BUpperCasedChecksum=3A605EA78A40387D27561D4?=
+ =?utf-8?q?B9F3EE40E8D32133FA42993BD8559AB6776DB3D4378=3BSizeAsReceived=3A66?=
+ =?utf-8?q?22=3BCount=3A41?=
+x-tmn: [ZoZnEdL8UqxZKqMZDLiyvwl8nSoCgevv]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 41
+x-eopattributedmessage: 0
+x-ms-office365-filtering-correlation-id: 4fb4f9a2-1be8-49a1-3d24-08d968795aac
+x-ms-traffictypediagnostic: DM6NAM11HT155:
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: =?utf-8?q?PyfLG8VslP=2F91=2FiKQvW=2F0pVGe4shMTWKPMpm+vH3sYy5y2utg=2FM9A4GzedEFC?=
+ =?utf-8?q?L9I88sp7dNaYUaSSfIIVCEZ+Ldyq+SC79kBh8Jtko0bmpfU=2F+G9jMTbARnTgI?=
+ =?utf-8?q?RWmr=2FYbHJbmQszEstwiUVHPSUxnczGfFoP+gZBBInbCTwaWyuOMjEo3WxrYRd?=
+ =?utf-8?q?6zzjbbNDo3Uo24FGsPNis8BBqL8LZD8SPjSWyX1LN6rBz10KOlNr3OncMCYPu?=
+ =?utf-8?q?ihNRnrHRrvOz+uBaA8sNmYXezmPQjC1vBeqPI2j35o+TwK1KtZzSIos0mq9ZR?=
+ =?utf-8?q?A3mhSITi4dFKM6X0jvGeFXgoTEyjiGX7SPo4qkuCQBCIxBv43p2EA9Mprkcm3?=
+ =?utf-8?q?wG6t7qkYgdilp3IN4uwqkfp9H=2Fzf6XMVjZqqLegq9O704E5lp+Y5VvDi=2FFrtg?=
+ =?utf-8?q?Ax0goEM2o5REhsAIMQDI7?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?utf-8?q?iF15POf2W4SphEwaAlPp4yZ1iaP=2FS3WC6XcHoZm7VQu2PHFXJtsP8uA9akEp+?=
+ =?utf-8?q?ZXRfYS41md00wqCGVe5QjduhoOuW5gd30P1NpWVIXlpTn4yruWcQzcv+qN42G?=
+ =?utf-8?q?kLwiQNhBKlyubN1M+Cz66hNj7CDA=3D=3D?=
+x-ms-exchange-transport-forked: True
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-AuthSource: DM6NAM11FT062.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4fb4f9a2-1be8-49a1-3d24-08d968795aac
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Aug 2021 10:07:47.0125 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6NAM11HT155
+Uid: 75
+Folder: INBOX
+Sender: dinesh maripi <dineshmaripi@outlook.com>
+PlainText: Hola Amigo,How are you doing?regards, Power Automate
+HtmlBody: <html><head><meta http-equiv="Content-Type" content="text/html;
+ charset=us-ascii"></head><body><em>Hola Amigo</em>, <br><strong>How are you
+ doing?</strong> <br>regards, Power Automate</body></html>
+Content-Type: multipart/alternative; boundary="=-XjFh5K7H25Qlk257pbWNHw=="
+
+--=-XjFh5K7H25Qlk257pbWNHw==
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Content-Id: <98687ff5-07ee-49e0-8c22-7663af88a90f>
+
+Hola Amigo,
+How are you doing?
+regards, Power Automate
+
+--=-XjFh5K7H25Qlk257pbWNHw==
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Content-Id: <e09c272e-ebfa-4628-8503-fb4486a66ac5>
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-a=
+scii">
+</head>
+<body>
+<em>Hola Amigo</em>, <br>
+<strong>How are you doing?</strong> <br>
+regards, Power Automate
+</body>
+</html>
+
+--=-XjFh5K7H25Qlk257pbWNHw==--
